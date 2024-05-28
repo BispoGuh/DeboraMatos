@@ -1,0 +1,855 @@
+/* ESTILO GERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {	
+	height: 100vh;
+    background-color: rgba(29, 184, 125, 0.459);
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header.center {
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: rgb(29, 184, 125);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.menu-desktop .menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.logotipo a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    height: 100px;
+    width: 500px;
+    color: #000;
+}
+
+.logotipo p {
+    font-family: "Quicksand", sans-serif;
+}
+
+.logotipo img {
+    height: 100px;
+	width: 100px;
+}
+
+.center .menu-desktop .menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    border-right: solid 1px #000;
+    padding-right: 10px;
+}
+
+.center .menu-desktop .menu a:hover {
+    text-decoration: underline;
+
+}
+/* ESTILO DO LIVRE */
+section.livre {
+    padding: 50px 4%;
+
+}
+
+/* ESTILO DO BANNER */
+
+section.banner {
+    padding: 266px 4%;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner {
+    position: relative
+}
+
+.banner .titulo-banner {
+    position: absolute;
+    top: 150px;
+}
+
+.titulo-banner h1 {
+    font-size: 50px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.titulo-banner p {
+    font-size: 35px;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* ESTILO SOBRE */
+
+section.sobre {
+    padding: 100px 4%;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sobre .img-sobre img {
+    height: 450px;
+	width: 450px;
+	border-radius: 20px;
+}
+
+.txt-sobre {
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.txt-sobre h2, span {
+    margin-bottom: 20px;
+    font-size: 37px;
+    font-family: "Quicksand", sans-serif;
+    display: inline-block;
+}
+
+.txt-sobre p {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+}
+
+/* ESTILO DICAS */
+
+section.dicas {
+    padding: 100px 4%;
+    background-color: #fff;
+}
+
+.cards-dicas {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards-dicas .card1 {
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 20px #000;
+    padding: 0 0 25px 0;
+}
+
+.cards-dicas .card2 {
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 20px #000;
+}
+
+.cards-dicas .card3 {
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px #000;
+}
+
+.cards-dicas .card4 {
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 20px #000;
+}
+
+.cards-dicas .card5 {
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 20px #000;
+}
+
+.cards-dicas .card6 {
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 20px #000;
+}
+
+.dicas .card1 img,
+.dicas .card2 img,
+.dicas .card5 img,
+.dicas .card6 img {
+    height: 180px;
+	width: 250px;
+    border-radius: 20px;
+}
+
+.dicas .card3 img {
+    height: 180px;
+	width: 280px;
+    border-radius: 20px;
+}
+
+
+.dicas .card4 img {
+    height: 180px;
+	width: 280px;
+    border-radius: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.336);
+}
+
+.dicas .card1 h2,
+.dicas .card2 h2,
+.dicas .card3 h2,
+.dicas .card4 h2,
+.dicas .card5 h2,
+.dicas .card6 h2 {
+    border-bottom: solid 2px #000;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.dicas .card1 p,
+.dicas .card2 p,
+.dicas .card3 p,
+.dicas .card4 p,
+.dicas .card5 p,
+.dicas .card6 p {
+    font-size: 14px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    width: 70%;
+}
+
+.dicas .card1 a,
+.dicas .card2 a,
+.dicas .card3 a,
+.dicas .card4 a,
+.dicas .card5 a,
+.dicas .card6 a {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    background-color: rgba(29, 184, 125, 0.459);
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dicas .card1 a:hover,
+.dicas .card2 a:hover,
+.dicas .card3 a:hover,
+.dicas .card4 a:hover,
+.dicas .card5 a:hover,
+.dicas .card6 a:hover {
+    background-color: rgba(0, 128, 0, 0.596); 
+}
+
+/* ESTILO REDES SOCIAIS */
+
+section.redes-sociais {
+    padding: 5px 4%;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.redes-sociais .img-redes-sociais img {
+    height: 150px;
+	width: 150px;
+}
+
+.redes-sociais .icons-redes-sociais img, 
+.redes-sociais .icons-redes-sociais a {
+    height: 50px;
+	width: 50px;
+    margin: 0 15px;
+}
+
+/* ESTILO RODAPÉ */
+
+footer .rodape {
+    padding: 5px 4%;
+}
+
+.direitos {
+    text-align: center;
+    border-top: dashed 1px #000;
+    padding: 25px 4%;
+}
+
+.direitos p  {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.direitos span {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(29, 184, 89)
+}
+
+/* ESTILOS ARTIGO 1 */
+
+/* ESTILO CONTAINER UM */
+
+.center-pg1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: rgb(29, 184, 125);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+section.container-um {
+    padding: 50px 15%;
+    background-color: #fff;
+}
+
+.container-um {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.txt-container-um {
+    width: 50%;
+    position: relative;
+}
+
+.txt-container-um h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.txt-container-um p {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.img-container-um img {
+    height: 300px;
+	width: 350px;
+    border-radius: 20px;
+}
+
+/* ESTILO CONTAINER DOIS */
+
+section.container-dois {
+    padding: 10px 15%;
+    background-color: #fff;
+}
+
+.txt-container-dois h3 {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+}
+
+.txt-container-dois ul li {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+}
+
+.txt-container-dois p {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+
+}
+
+.txt-container-dois .fonte {
+    font-style: italic;
+}
+
+/* ESTILOS ARTIGO 3 */
+
+/* ESTILO CONTAINER UM */
+
+section.container-um-pg3 {
+    padding: 50px 15%;
+    background-color: #fff;
+}
+
+.container-um-pg3 {
+    display: flex;
+    gap: 130px;
+}
+
+.txt-container-um-pg3 {
+    width: 50%;
+    position: relative;
+}
+
+.txt-container-um-pg3 h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.txt-container-um-pg3 p {
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 0;
+}
+
+.img-container-um-pg3 img {
+    height: 270px;
+	width: 400px;
+    border-radius: 20px;
+}
+
+/* ESTILO CONTAINER DOIS */
+
+section.container-dois-pg3 {
+    padding: 10px 15%;
+    background-color: #fff;
+}
+
+.txt-container-dois-pg3 h3 {
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+}
+
+.txt-container-dois-pg3 p {
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+}
+
+.txt-container-dois-pg3 .fonte {
+    font-style: italic;
+}
+
+/* ESTILOS ARTIGO 4 */
+
+/* ESTILO CONTAINER UM */
+
+section.container-um-pg4 {
+    padding: 50px 15%;
+    background-color: #fff;
+}
+
+.container-um-pg4 {
+    display: flex;
+    gap: 130px;
+}
+
+.txt-container-um-pg4 {
+    width: 50%;
+    position: relative;
+}
+
+.txt-container-um-pg4 h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.txt-container-um-pg4 p {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 0;
+}
+
+.img-container-um-pg4 img {
+    height: 250px;
+	width: 400px;
+    border-radius: 20px;
+}
+
+.txt-container-dois-pg4 .fonte {
+    font-style: italic;
+}
+
+/* ESTILOS ARTIGO 6 */
+
+/* ESTILO CONTAINER UM */
+
+section.container-um-pg6 {
+    padding: 50px 15%;
+    background-color: #fff;
+}
+
+.container-um-pg6 {
+    display: flex;
+    gap: 130px;
+}
+
+.txt-container-um-pg6 {
+    width: 50%;
+    position: relative;
+}
+
+.txt-container-um-pg6 h2 {
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.txt-container-um-pg6 p {
+    font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 0;
+}
+
+.img-container-um-pg6 img {
+    height: 240px;
+	width: 350px;
+    border-radius: 20px;
+}
+
+.txt-container-dois-pg6 .fonte {
+    font-style: italic;
+}
+
+@media screen and (max-width: 1107px) {
+    /* ESTILO DO CABEÇALHO */
+
+    .center {
+        gap: 20px;
+        flex-wrap: wrap;
+        height: 170px;
+    }
+
+    .logotipo a {
+        height: 70px;
+        width: 340px;
+        padding-top: 20px;
+    }
+
+    .logotipo p {
+        font-family: "Quicksand", sans-serif;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .logotipo img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .center .menu-desktop .menu a {
+        font-size: 16px;
+        padding: 5px;        
+    }
+
+    .center .menu-desktop {
+        width: 95%;
+    }
+
+    /* ESTILO DO BANNER */
+
+    section.banner {
+        padding: 300px 4%;
+    }
+
+    .banner .titulo-banner {
+        position: absolute;
+        top: 350px;
+    }
+
+    .titulo-banner h1 {
+        font-size: 30px;
+    }
+
+    .titulo-banner p {
+        font-size: 25px;
+    }
+
+    /* ESTILO SOBRE */
+
+    .sobre .img-sobre img {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .txt-sobre h2, span {
+        font-size: 27px;
+    }
+
+    .txt-sobre {
+        text-align: left;
+        width: 90%;
+        display: inline-block;
+    }
+
+    /* ESTILO REDES SOCIAIS */
+
+    .redes-sociais .img-redes-sociais img {
+        height: 100px;
+        width: 100px;
+    }
+
+    /* ESTILOS ARTIGO 1 */
+
+    /* ESTILO CONTAINER UM */
+
+    .center-pg1 {
+        height: 100px;
+    }
+
+    section.container-um {
+        padding: 10px 5%;
+        background-color: #fff;
+    }
+
+    .container-um {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        height: 550px;
+        text-align: center;
+    }
+
+    .txt-container-um {
+        width: 95%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 250px;
+        text-align: center;
+    }
+
+    .txt-container-um h2 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .txt-container-um p {
+        font-size: 17px;
+        margin-bottom: 25px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .img-container-um img {
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    /* ESTILOS ARTIGO 3 */
+
+    /* ESTILO CONTAINER UM */
+
+    section.container-um-pg3 {
+        padding: 10px 5%;
+        background-color: #fff;
+    }
+
+    .container-um-pg3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        height: 550px;
+        text-align: center;
+    }
+
+    .txt-container-um-pg3 {
+        width: 95%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 250px;
+        text-align: center;
+    }
+
+    .txt-container-um-pg3 h2 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .txt-container-um-pg3 p {
+        font-size: 17px;
+        margin-bottom: 25px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .img-container-um-pg3 img {
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    /* ESTILOS ARTIGO 4 */
+
+    /* ESTILO CONTAINER UM */
+
+    section.container-um-pg4 {
+        padding: 10px 5%;
+        background-color: #fff;
+    }
+
+    .container-um-pg4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        height: 550px;
+        text-align: center;
+    }
+
+    .txt-container-um-pg4 {
+        width: 95%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 270px;
+        text-align: center;
+    }
+
+    .txt-container-um-pg4 h2 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .txt-container-um-pg4 p {
+        font-size: 17px;
+        margin-bottom: 25px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .img-container-um-pg4 img {
+        height: 180px;
+        width: 300px;
+        border-radius: 20px;
+        border: solid 1px rgba(0, 0, 0, 0.336);
+    }
+
+    /* ESTILOS ARTIGO 6 */
+
+    /* ESTILO CONTAINER UM */
+
+    section.container-um-pg6 {
+        padding: 10px 5%;
+        background-color: #fff;
+    }
+
+    .container-um-pg6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        height: 570px;
+        text-align: center;
+    }
+
+    .txt-container-um-pg6 {
+        width: 95%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 420px;
+        text-align: center;
+    }
+
+    .txt-container-um-pg6 h2 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .txt-container-um-pg6 p {
+        font-size: 17px;
+        margin-bottom: 25px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .img-container-um-pg6 img {
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+        border: solid 1px rgba(0, 0, 0, 0.336);
+    }
+}
